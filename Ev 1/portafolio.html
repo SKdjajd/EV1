@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio - Fernando Vivanco</title>
+<link rel="stylesheet" href="portafolio.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-links">
+                <li>
+                    <a href="#" class="logo"><img src="Fv.png" alt="Logo Fernando Vivanco" width="60" height="60"></a>
+                </li>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="hero">
+            <h1>Fernando Vivanco Gallardo </h1>
+            <p>Desarrollador Web Front-End | Estudiante de Programación | Desarrollo Base de Datos Estructurada</p>
+        </section>
+
+        <section id="sobre-mi">
+            <article>
+                <h2>Sobre mí</h2>
+                <div class="sobre-mi-container">
+                    <table class="info-table">
+                        <thead>
+                            <tr>
+                                <th>Dato Personal/Profesional</th>
+                                <th>Información</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Nombre completo:</td>
+                                <td>Fernando Vivanco Gallardo</td>
+                            </tr>
+                            <tr>
+                                <td>Fecha de nacimiento:</td>
+                                <td>25/06/2007</td>
+                            </tr>
+                            <tr>
+                                <td>Edad:</td>
+                                <td>18 años</td>
+                            </tr>
+                            <tr>
+                                <td>Email:</td>
+                                <td><a href="mailto:fernando.vivanco08@outlook.com" class="mailto-link">fernando.vivanco08@outlook.com</a></td>
+                            </tr>
+                            <tr>
+                                <td>Teléfono:</td>
+                                <td class="copy-phone" onclick="copyToClipboard(this)">+56 9 1021 0637<span class="phone-text"></span> <span class="copy-icon">📋</span><span class="copy-feedback">Copiado al portapapeles! ✅</span></td>
+                            </tr>
+                            <tr>
+                                <td>Carrera:</td>
+                                <td>Analista Programador - INACAP</td>
+                            </tr>
+                            <tr>
+                                <td>Docente:</td>
+                                <td>Yasna León Foitzick</td>
+                            </tr>
+                            <tr>
+                                <td>Nivel:</td>
+                                <td>Intermedio</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="bio-content">
+                        <img src="Fv.png" alt="Foto personal Fernando Vivanco" class="foto-personal" width="250" height="250">
+                        <p><strong>Estudiante apasionado por el desarrollo web</strong> en INACAP. Especializado en HTML5, CSS3 y JavaScript. Busco crear experiencias digitales modernas, accesibles y centradas en el usuario.</p>
+                        <p>Actualmente desarrollando habilidades en diseño responsive, Flexbox, Grid y control de versiones con Git/GitHub.</p>
+                        <blockquote>"El problema real no es si las máquinas piensan, sino si lo hacen los hombres."</blockquote>
+                        <blockquote>B. F. Skinner.</blockquote>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <section id="habilidades">
+            <h2>Habilidades Técnicas</h2>
+            <div class="skills-container">
+                <div class="skill">
+                    <div class="skill-label">
+                        <span class="skill-name">HTML5</span>
+                        <span class="skill-level">Avanzado</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="bar html5" data-width="90%"></div>
+                    </div>
+                                </div>
+                <div class="skill">
+                    <div class="skill-label">
+                        <span class="skill-name">PL/SQL</span>
+                        <span class="skill-level">Avanzado</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="bar plsql" data-width="90%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-label">
+                        <span class="skill-name">Python</span>
+                        <span class="skill-level">Avanzado</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="bar python" data-width="90%"></div>
+                    </div>
+                </div>  
+                <div class="skill">
+                    <div class="skill-label">
+                        <span class="skill-name">CSS3</span>
+                        <span class="skill-level">Intermedio</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="bar css3" data-width="70%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-label">
+                        <span class="skill-name">JavaScript</span>
+                        <span class="skill-level">Intermedio</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="bar css3" data-width="70%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-label">
+                        <span class="skill-name">NoSQL</span>
+                        <span class="skill-level">Básico</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="bar nosql" data-width="40%"></div>
+                    </div>
+                </div>
+            </div>
+            <h3>Competencias Blandas</h3>
+            <div class="soft-skills">
+                <div class="skill-card">
+                    <span class="skill-icon">🤝</span>
+                    <div>
+                        <h4>Trabajo en equipo</h4>
+                        <p>Colaboración efectiva en proyectos grupales</p>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <span class="skill-icon">💡</span>
+                    <div>
+                        <h4>Resolución de problemas</h4>
+                        <p>Análisis lógico y creativo de desafíos técnicos</p>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <span class="skill-icon">📚</span>
+                    <div>
+                        <h4>Aprendizaje autónomo</h4>
+                        <p>Capacidad de autoaprendizaje continuo de nuevas tecnologías</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="proyectos">
+            <h2>Proyectos</h2>
+            <div class="galeria">
+                <figure>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1280px-Python-logo-notext.svg.png" alt="Proyecto 1" width="300" height="200">
+                    <figcaption>Eliminar documentos duplicados - <a href="https://github.com/SKdjajd/Eliminar-Documentos-duplicados.git">Ver en GitHub</a></figcaption>
+                </figure>
+                <aside>
+                    <p>Como dice su nombre, este proyecto busca poder eliminar a traves de una interfaz gráfica el eliminar los documentos duplicados en distintas carpetas del disco</p>
+                </aside>
+                <figure>
+                    <img src="Python-logo-notext.svg.png" alt="Proyecto 1" width="10px" height="1">
+                    <figcaption>Primeros pasos hacking ético - <a href="https://github.com/SKdjajd/first-step-hack.git">Ver en GitHub</a></figcaption>
+                </figure>
+                <aside>
+                    <p>Este repositorio es para quienes esten empezando con hacking ético, incluye cosas muy simples como keylogger y escaneador de puertos</p>
+                </aside>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form>
+                <div class="form-group">
+                    <label for="nombre">Nombre completo</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="tu@email.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="asunto">Asunto</label>
+                    <select id="asunto" name="asunto" required>
+                        <option value="">Selecciona un asunto</option>
+                        <option value="consulta">Consulta general</option>
+                        <option value="proyecto">Propuesta de proyecto</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" rows="8" placeholder="Cuéntame sobre tu proyecto o consulta..."></textarea>
+                </div>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <ul class="redes">
+            <li><a href="https://github.com/SKdjajd">GitHub</a></li>
+        </ul>
+        <p>&copy; 2026 Fernando Vivanco. Hecho con HTML5, CSS3 y JavaScript</p>
+        <script>
+            // Copy phone to clipboard
+            function copyToClipboard(element) {
+                const phoneText = element.querySelector('.phone-text') || element;
+                const phone = '+56 9 1021 0637';
+                navigator.clipboard.writeText(phone).then(() => {
+                    element.classList.add('copied');
+                    setTimeout(() => element.classList.remove('copied'), 2000);
+                }).catch(() => {
+                    const textArea = document.createElement('textarea');
+                    textArea.value = phone;
+                    document.body.appendChild(textArea);
+                    textArea.select();
+                    document.execCommand('copy');
+                    document.body.removeChild(textArea);
+                    element.classList.add('copied');
+                    setTimeout(() => element.classList.remove('copied'), 2000);
+                });
+            }
+
+            // Animate skill bars
+            document.addEventListener('DOMContentLoaded', () => {
+                const bars = document.querySelectorAll('.bar');
+                bars.forEach((bar, index) => {
+                    const width = bar.dataset.width;
+                    bar.style.width = '0%';
+                    setTimeout(() => {
+                        bar.style.width = width;
+                    }, index * 200);
+                });
+            });
+        </script>
+    </footer>
+</body>
+</html>
