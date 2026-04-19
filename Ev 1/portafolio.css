@@ -540,6 +540,31 @@ section {
 }
 
 /* Competencias Blandas Professional */
+.metodologia-list {
+    list-style-position: inside;
+    margin: 2rem 0;
+    padding-left: 1.5rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.metodologia-list li {
+    font-size: 1.1rem;
+    margin-bottom: 0.8rem;
+    color: #3f414b;
+    padding: 0.5rem;
+    background: rgba(151, 167, 247, 0.1);
+    border-left: 4px solid #97a7f7;
+    border-radius: 0 8px 8px 0;
+    transition: all 0.3s ease;
+}
+
+.metodologia-list li:hover {
+    background: rgba(151, 167, 247, 0.2);
+    transform: translateX(5px);
+}
+
 .soft-skills {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
