@@ -6,7 +6,7 @@ Portafolio web profesional de un estudiante de Analista Programador en INACAP. D
 ## ✨ Características
 - **Single Page Application** con navegación por anclas.
 - Secciones: Hero, Sobre mí (foto/tabla/bio), Habilidades (gráficos + soft-skills), Proyectos (galería Grid), Contacto (form validado), Footer.
-- **Responsive** (mobile/tablet/desktop).
+- **Responsivo** (mobile/tablet/desktop).
 - **Interactivo**: Copiar teléfono, animaciones skill-bars.
 - Imágenes locales optimizadas.
 
@@ -42,9 +42,8 @@ Ev 1/
 - style: responsive design + README.md
 
 ## 📸 Capturas
-![Hero Section](https://via.placeholder.com/1200x600/667eea/ffffff?text=Hero+Portafolio)  
-![Habilidades](https://via.placeholder.com/1200x400/764ba2/ffffff?text=Skills+Grid)  
-*(Reemplaza con screenshots reales)*
+![Hero Section](hero-nav.png)  
+![Habilidades](Skills.png)  
 
 ## ✉️ Contacto
 fernando.vivanco08@outlook.com | +56 9 1021 0637
