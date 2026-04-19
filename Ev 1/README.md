@@ -32,14 +32,12 @@ Ev 1/
 └── Python-logo-notext.svg.png # Imagen proyectos
 ```
 
-## 📈 Commits (7+ realizados)
+## 📈 Commits (5 realizados)
 - feat: navbar y estructura inicial
 - feat: sección sobre mí
-- feat: habilidades y tabla
-- feat: galería de proyectos
-- feat: formulario de contacto y footer
-- style: CSS Flexbox y Grid
-- style: responsive design + README.md
+- feat: habilidades y final
+- style: "Rapido" Ajustes de codigo para rúbrica
+- style: README.md + agregados
 
 ## 📸 Capturas
 ![Hero Section](hero-nav.png)  
